@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    width: 15%;
+  height: auto;
+}
+
+ #findJobsBtn{
+  width: 20%;
+  margin-left: 10px;
+}
+.text-7xl {
+  font-size: 3.5rem;
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:bg-blue-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(227, 235, 255);
+    border-radius: 10px;
+    width: 91%;
+    padding: 10px;
+    top: 90px;
+    height: 80%;
+  }
+  #logo {
+    width: 50%;
+    height: auto;
+  }
+  #cardsList{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="jobs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hiring Mine</title>
+  </head>
+  <body class="h-full w-full flex-col">
+    <nav class="w-full h-16 bg-gray-800 flex justify-between px-24   items-center max-sm:flex max-sm:justify-between max-sm:items-center max-sm:px-4 max-sm:relative ">
+      <!-- logo -->
+   <img src="./images/Hiring Mine Logo-453a72d3.png" alt="" id="logo" class="" >
+      <!-- input -->
+      <div class=" w-3/5 flex justify-center items-center space-x-8 max-sm:absolute max-sm:top-10 max-sm:items-center max-sm:bg-blue-900 max-sm:h-screen max-sm:w-1/2 ">
+        <input type="text" placeholder="Search by Role or Keyword" class="rounded-xl p-2 w-full text " id="jobInput">
+        <button class="bg-purple-700 text-white font-bold p-2 rounded-full  ml-3 max-sm:w-1/2" id="findJobsBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <!-- icon -->
+    </nav>
+
+    <!-- section-1 -->
+    <div id="cardsList" class="w-full h-full   flex flex-wrap justify-center items-start gap-10 py-16 max-sm:pt-36  max-sm:w-full">
+      <!-- job cards will be dynamically injected here -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
