@@ -77,3 +77,9 @@ const callingJobsApi = async () => {
 
 const searchBtn = document.querySelector("#findJobsBtn");
 searchBtn.addEventListener("click", callingJobsApi);
+
+// Back button
+const backBtn = document.getElementById("back");
+backBtn.addEventListener("click", () => {
+  window.location.href = "index.html";
+});
