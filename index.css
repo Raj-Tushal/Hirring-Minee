@@ -57,4 +57,12 @@ html,body{
     #footer{
         padding: 1rem 2rem 0rem 0rem;
     }
+    #section-2{
+        padding-right: 0rem;
+        padding-left: 1.5rem;
+    }
+
+    #cards{
+        padding: 0rem;
+    }
 }
