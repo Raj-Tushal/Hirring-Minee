@@ -31,6 +31,11 @@ html,body{
     top: 90px;
     height: 80%;
   }
+  #input{
+    width: 92%;
+    height: 7vh;
+    top: 4.5rem;
+  }
   #logo {
     width: 50%;
     height: auto;
