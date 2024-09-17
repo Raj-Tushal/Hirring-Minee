@@ -1,1 +1,2 @@
-![hirring-minee vercel app_(iPhone XR)](https://github.com/user-attachments/assets/b14e329b-57a3-4872-8e16-e9c72ed4784e)
+
+![hirring-minee vercel app_](https://github.com/user-attachments/assets/9e0512b2-23af-43c8-ba80-4b7e77d9a31a)
